@@ -37,25 +37,27 @@
   
 <button mat-button [matMenuTriggerFor]="aboveMenu">Plan de estudios</button>
 <mat-menu #aboveMenu="matMenu" yPosition="below">
-  <button [routerLink]="['/courses']" mat-menu-item >Cursos</button>
+  <button mat-menu-item>Curso</button>
 </mat-menu>
 
 <button mat-button [matMenuTriggerFor]="belowMenu">Personal docente</button>
 <mat-menu #belowMenu="matMenu" yPosition="below">
-  <button mat-menu-item>x</button>
-  <button mat-menu-item>x</button>
+  <button mat-menu-item>xxxxxx</button>
+  <button mat-menu-item>xxxxxxxxx</button>
 </mat-menu>
 
 <button mat-button [matMenuTriggerFor]="beforeMenu">Noticias</button>
 <mat-menu #beforeMenu="matMenu" yPosition="below">
-  <button mat-menu-item>x</button>
-  <button mat-menu-item>x</button>
+  <button mat-menu-item>xxxxxx</button>
+  <button mat-menu-item>xxxxxxxxxxx</button>
 </mat-menu>
 
 
   </div>
 
-  <div class="item3"><img  src="./assets/UCR.jpg" ></div>  
+  <div class="item3">
+    <button [routerLink]="['/requirement']" mat-menu-item >Siguiente1</button>
+    </div>  
 
   <div class="item5"> <img  src="./assets/footerLogo.png">
     <mat-icon>facebook</mat-icon>
@@ -67,4 +69,3 @@
 
 </body>
 </html>
-
