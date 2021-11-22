@@ -35,15 +35,17 @@
     </p>
 
   
-<button mat-button>General</button>
+    <button mat-button [routerLink]="['/general']">General</button>
+
+    <button mat-button [routerLink]="['/requirement']">Requisitos</button>
+
+<button mat-button >Contenidos</button>
 
 
 
   </div>
 
   <div class="item3">
-
-
     <div id="responsive-form" class="clearfix">
 
       <div class="form-row">
@@ -55,14 +57,17 @@
               <i class="tim-icons icon-lock-circle"> </i>
             </div>
           </div>
-          <input
-            class="form-control"
-            placeholder="Sigla"
-            type="text"
-          />
+        
+          <mat-form-field class="example-full-width">
+    <mat-label>Enter Note:</mat-label>
+    <textarea matInput placeholder="Ex. this is example..."></textarea>
+</mat-form-field>
+
         </div>
 
       </div>
+
+
 
 
 
@@ -94,7 +99,7 @@
           </div>
           <input
             class="form-control"
-            placeholder="Nombre"
+            placeholder="Sigla"
             type="text"
           />
         </div>
@@ -126,7 +131,7 @@
             </div>
             <input
               class="form-control"
-              placeholder="Créditos"
+              placeholder="Sigla"
               type="text"
             />
           </div>
@@ -148,89 +153,20 @@
         </div>
       
         
-        <div class="form-row">
-          <div class="column-half">
-            <div class="input-group">
-              <div class="input-group-prepend">
-                <div class="input-group-text">
-                  <i class="tim-icons icon-lock-circle"> </i>
-                </div>
-              </div>
-              <input
-                class="form-control"
-                placeholder="Ciclo en el que se "
-                type="number"
-              />
-            </div>
-          </div>
-          <div class="column-half">
-            <div class="input-group">
-              <div class="input-group-prepend">
-                <div class="input-group-text">
-                  <i class="tim-icons icon-lock-circle"> </i>
-                </div>
-              </div>
-              <input
-                class="form-control"
-                placeholder="Horas teorico-prácticas"
-                type="number"
-              />
-            </div>
-          </div>
-          </div>
       
-          
-
-          <div class="form-row">
-            <div class="column-half">
-              <div class="input-group">
-                <div class="input-group-prepend">
-                  <div class="input-group-text">
-                    <i class="tim-icons icon-lock-circle"> </i>
-                  </div>
-                </div>
-                <input
-                  class="form-control"
-                  placeholder="Créditos"
-                  type="number"
-                />
-              </div>
-            </div>
-            <div class="column-half">
-              <div class="input-group">
-                <div class="input-group-prepend">
-                  <div class="input-group-text">
-                    <i class="tim-icons icon-lock-circle"> </i>
-                  </div>
-                </div>
-                <input
-                  class="form-control"
-                  placeholder="Horas laboratorio"
-                  type="number"
-                />
-              </div>
-            </div>
-            </div>
-            
       
 
       
       <div class="form-row">
-      <div class="column-half"><button class="button button1" [routerLink]="['/requirement']" mat-menu-item >Siguiente</button>
+      <div class="column-half"><button class="button button1"  mat-menu-item >Agregar</button>
       </div>
-      <div class="column-half"><button class="button button2" [routerLink]="['/courses']" mat-menu-item >Regresar</button>
+      <div class="column-half"><button class="button button2"  mat-menu-item >Cancelar</button>
       </div>
 
       </div>
       
       </div>
-
-
-
-    
     </div>  
-
-  
 
 </div>
 
