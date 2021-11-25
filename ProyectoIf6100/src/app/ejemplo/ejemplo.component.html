@@ -1,62 +1,4 @@
-<!DOCTYPE html>
-<html>
-<head>
-<style>
-.item1 { grid-area: header; }
-.item3 { grid-area: main; }
-.item5 { grid-area: footer; }
-
-
-
-</style>
-</head>
-<body>
-
-
-  <div class="item1">
-
-    <p>
-      <mat-toolbar >
-        <mat-toolbar-row>
-
-          
-          <img height="130px" src="./assets/logo1.png" >
-          <img height="60px" src="./assets/IE.png" >
-
-
-            <mat-icon  >accessible</mat-icon>
-            <mat-icon>language</mat-icon>
-            <mat-icon>account_box</mat-icon>
-     
-        </mat-toolbar-row>
-    
-
-      </mat-toolbar>
-    </p>
-
-  
-<button mat-button [matMenuTriggerFor]="aboveMenu">Plan de estudios</button>
-<mat-menu #aboveMenu="matMenu" yPosition="below">
-  <button mat-menu-item>Curso</button>
-</mat-menu>
-
-<button mat-button [matMenuTriggerFor]="belowMenu">Personal docente</button>
-<mat-menu #belowMenu="matMenu" yPosition="below">
-  <button mat-menu-item>xxxxxx</button>
-  <button mat-menu-item>xxxxxxxxx</button>
-</mat-menu>
-
-<button mat-button [matMenuTriggerFor]="beforeMenu">Noticias</button>
-<mat-menu #beforeMenu="matMenu" yPosition="below">
-  <button mat-menu-item>xxxxxx</button>
-  <button mat-menu-item>xxxxxxxxxxx</button>
-</mat-menu>
-
-
-
-  </div>
-
-    <mat-accordion class="example-headers-align">
+<mat-accordion class="example-headers-align">
  <mat-expansion-panel hideToggle>
   <mat-expansion-panel-header>
     <mat-panel-title>
@@ -92,7 +34,7 @@
         <mat-card-content>4 Créditos</mat-card-content>
        </mat-card>
 
-       <button  [routerLink]="['/general']" class= "mat-button">Agregar electivas</button>
+       <button class= "mat-button">Agregar electivas</button>
     
 </div> 
 
@@ -139,7 +81,7 @@
         <mat-card-content>4 Créditos</mat-card-content>
        </mat-card>
 
-       <button  [routerLink]="['/general']" class= "mat-button">Agregar electivas</button>
+       <button class= "mat-button">Agregar electivas</button>
     
 </div> 
 </mat-expansion-panel>
@@ -181,7 +123,7 @@
         <mat-card-content>3 Créditos</mat-card-content>
        </mat-card>
 
-       <button  [routerLink]="['/general']" class= "mat-button">Agregar electivas</button>
+       <button class= "mat-button">Agregar electivas</button>
     
 </div> 
 </mat-expansion-panel>
@@ -223,7 +165,7 @@
         <mat-card-content>4 MA0320, MA0321</mat-card-content>
        </mat-card>
 
-       <button  [routerLink]="['/general']" class= "mat-button">Agregar electivas</button>
+       <button class= "mat-button">Agregar electivas</button>
     
 </div> 
 </mat-expansion-panel>
@@ -265,7 +207,7 @@
         <mat-card-content>2 Créditos EG-II</mat-card-content>
        </mat-card>
 
-       <button  [routerLink]="['/general']" class= "mat-button">Agregar electivas</button>
+       <button class= "mat-button">Agregar electivas</button>
     
 </div> 
 </mat-expansion-panel>
@@ -274,7 +216,7 @@
 <mat-accordion class="example-headers-align">
  <mat-expansion-panel hideToggle>
   <mat-expansion-panel-header>
-    <mat-panel-title >
+    <mat-panel-title>
      VI Ciclo 
     </mat-panel-title>
     
@@ -282,7 +224,7 @@
 
     <div class= "main-div">
     <mat-card>
-        <mat-card-title> IF6000</mat-card-title>
+        <mat-card-title> EJ-</mat-card-title>
         <mat-card-subtitle>Redes en los negocios</mat-card-subtitle>
         <mat-card-content>4 Créditos Requisitos IF5000</mat-card-content>
        </mat-card>
@@ -307,7 +249,7 @@
         <mat-card-content>2 Créditos Requisitos SR-I</mat-card-content>
        </mat-card>
 
-       <button  [routerLink]="['/general']" class= "mat-button">Agregar electivas</button>
+       <button class= "mat-button">Agregar electivas</button>
     
 </div> 
 </mat-expansion-panel>
@@ -349,7 +291,7 @@
         <mat-card-content>3 Créditos</mat-card-content>
        </mat-card>
 
-       <button  [routerLink]="['/general']" class= "mat-button">Agregar electivas</button>
+       <button class= "mat-button">Agregar electivas</button>
     
 </div> 
 </mat-expansion-panel>
@@ -387,24 +329,9 @@
        </mat-card>
        
 
-       <button  [routerLink]="['/general']" class= "mat-button">Agregar electivas</button>
+       <button class= "mat-button">Agregar electivas</button>
     
 </div> 
 </mat-expansion-panel>
 </mat-accordion>
 
-
-  <!--<div class="item3">
-    <button [routerLink]="['/general']" mat-menu-item >Bloque de electivas</button>
-    </div> --> 
-
- 
- <div class="item5"> <img  src="./assets/footerLogo.png">
-    <mat-icon>facebook</mat-icon>
-      <p>Todos los derechos reservados <br>Universidad de Costa Rica <br>Informática Empresarial</p>
-
-    </div>
-
-
-</body>
-</html>
