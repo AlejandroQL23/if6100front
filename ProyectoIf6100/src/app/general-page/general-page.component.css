@@ -61,7 +61,7 @@
 
 
   #responsive-form{
-	max-width:600px /*-- cambiar esto para conseguir el ancho de la forma deseada --*/;
+	max-width:700px /*-- cambiar esto para conseguir el ancho de la forma deseada --*/;
 	margin:0 auto;
   width:100%;
 }
@@ -112,4 +112,9 @@ width: 50%;
 
 .column-half .button2{
   background-color: #000000;
+}
+
+.input-size{
+  width: 250px;
+  margin-left: 0px;
 }
