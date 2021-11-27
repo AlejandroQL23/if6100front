@@ -16,8 +16,11 @@ import { ContentsPageComponent } from './contents-page/contents-page.component';
 import { CoursePageComponent } from './course-page/course-page.component';
 import { MainPageComponent } from './main-page/main-page.component';
 import { EjemploComponent } from './ejemplo/ejemplo.component';
-import {MatGridListModule} from '@angular/material/grid-list';
-import {MatCheckboxModule} from '@angular/material/checkbox';
+import { MatGridListModule} from '@angular/material/grid-list';
+import { MatCheckboxModule} from '@angular/material/checkbox';
+import { MatTabsModule } from '@angular/material/tabs';
+import { MatFormFieldModule } from "@angular/material/form-field";
+import { MatInputModule } from "@angular/material/input";
 
 
 
@@ -44,7 +47,10 @@ import {MatCheckboxModule} from '@angular/material/checkbox';
     MatExpansionModule,
     MatCardModule,
     MatGridListModule,
-    MatCheckboxModule
+    MatCheckboxModule,
+    MatTabsModule,
+    MatFormFieldModule,
+    MatInputModule
   ],
   providers: [],
   bootstrap: [AppComponent]
