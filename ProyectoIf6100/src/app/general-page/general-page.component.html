@@ -35,13 +35,280 @@
     </p>
 
   
-<button mat-button>General</button>
+<!--button mat-button>General</button-->
+<mat-tab-group mat-align-tabs="start">
+  <mat-tab label="General">
+    <div class="item3">
+      <div id="responsive-form" class="clearfix">
+  
+        <div class="form-row">
+        <div class="column-half">
+  
+          <div class="input-group">
+            <div class="input-group-prepend">
+              <div class="input-group-text">
+                <i class="tim-icons icon-lock-circle"> </i>
+              </div>
+            </div>
+            <mat-form-field class="input-size" appearance="outline">
+              <mat-label>Sigla</mat-label>
+              <input matInput>
+            </mat-form-field>
+            <mat-form-field appearance="outline" class="input-size">
+              <mat-label>Unidad(es) académica(s)</mat-label>
+              <mat-select  multiple>
+                <mat-option value="one">First option</mat-option>
+                <mat-option value="two">Second option</mat-option>
+                <mat-option value="one">Third option</mat-option>
+              </mat-select>
+          </mat-form-field>
+            <mat-form-field appearance="outline" class="input-size">
+              <mat-label>Área disciplinaria</mat-label>
+              <mat-select>
+                <mat-option value="one">First option</mat-option>
+                <mat-option value="two">Second option</mat-option>
+              </mat-select>
+            </mat-form-field>
+            <mat-form-field appearance="outline" class="input-size">
+              <mat-label>Ciclo</mat-label>
+              <mat-select>
+                <mat-option value="one">First option</mat-option>
+                <mat-option value="two">Second option</mat-option>
+              </mat-select>
+            </mat-form-field>
+            <mat-form-field appearance="outline" class="input-size">
+              <mat-label>Créditos</mat-label>
+              <mat-select>
+                <mat-option value="one">First option</mat-option>
+                <mat-option value="two">Second option</mat-option>
+              </mat-select>
+            </mat-form-field>
+          </div>
+  
+        </div>
+  
+        <div class="column-half">
+          
+          <div class="input-group">
+            <div class="input-group-prepend">
+              <div class="input-group-text">
+                <i class="tim-icons icon-lock-circle"> </i>
+              </div>
+            </div>
+            <mat-form-field appearance="outline" class="input-size">
+              <mat-label>Nombre</mat-label>
+              <input matInput>
+            </mat-form-field>
+          <mat-form-field appearance="outline" class="input-size">
+            <mat-label>Horas teoría</mat-label>
+            <mat-select>
+              <mat-option value="one">First option</mat-option>
+              <mat-option value="two">Second option</mat-option>
+            </mat-select>
+          </mat-form-field>
+          <mat-form-field appearance="outline"  class="input-size">
+            <mat-label>Horas práctica</mat-label>
+            <mat-select>
+              <mat-option value="one">First option</mat-option>
+              <mat-option value="two">Second option</mat-option>
+            </mat-select>
+          </mat-form-field>
+          <mat-form-field appearance="outline"  class="input-size">
+            <mat-label>Horas teórico-practicas</mat-label>
+            <mat-select>
+              <mat-option value="one">First option</mat-option>
+              <mat-option value="two">Second option</mat-option>
+            </mat-select>
+          </mat-form-field>
+          <mat-form-field appearance="outline" class="input-size">
+            <mat-label>Horas laboratorio</mat-label>
+            <mat-select>
+              <mat-option value="one">First option</mat-option>
+              <mat-option value="two">Second option</mat-option>
+            </mat-select>
+          </mat-form-field>
+          </div>
+  
+        </div>
+        </div>       
+    </div>   
+  </div>  
+  </mat-tab>
+  <mat-tab label="Requisitos">
+    <div class="item3">
+      <div id="responsive-form" class="clearfix">
+  
+        <div class="form-row">
+        <div class="column-half">
+  
+          <div class="input-group">
+            <div class="input-group-prepend">
+              <div class="input-group-text">
+                <i class="tim-icons icon-lock-circle"> </i>
+              </div>
+            </div>
+            <mat-form-field appearance="outline" class="input-size">
+              <mat-label>Requisitos</mat-label>
+              <mat-select  multiple>
+                <mat-option value="one">First option</mat-option>
+                <mat-option value="two">Second option</mat-option>
+                <mat-option value="one">Third option</mat-option>
+              </mat-select>
+          </mat-form-field>
+          </div>
+  
+        </div>
+  
+        <div class="column-half">
+          
+          <div class="input-group">
+            <div class="input-group-prepend">
+              <div class="input-group-text">
+                <i class="tim-icons icon-lock-circle"> </i>
+              </div>
+            </div>
+
+            <mat-form-field appearance="outline" class="input-size">
+              <mat-label>Co-Requisitos</mat-label>
+              <mat-select  multiple>
+                <mat-option value="one">First option</mat-option>
+                <mat-option value="two">Second option</mat-option>
+                <mat-option value="one">Third option</mat-option>
+              </mat-select>
+          </mat-form-field>
+          </div>
+  
+        </div>
+        </div>       
+    </div>   
+  </div>  
+  </mat-tab>
+  <mat-tab label="Contenidos">
+    <div class="item3">
+      <div id="responsive-form" class="clearfix">
+
+        <div class="form-row">
+          <div class="column-half">
+
+            <div class="input-group">
+              <div class="input-group-prepend">
+                <div class="input-group-text">
+                  <i class="tim-icons icon-lock-circle"> </i>
+                </div>
+              </div>
+
+              <mat-form-field class="example-full-width">
+                <mat-label>Enter Note:</mat-label>
+                <textarea matInput placeholder="Ex. this is example..."></textarea>
+              </mat-form-field>
+
+            </div>
+
+          </div>
+
+          <div class="column-half">
+
+            <div class="input-group">
+              <div class="input-group-prepend">
+                <div class="input-group-text">
+                  <i class="tim-icons icon-lock-circle"> </i>
+                </div>
+              </div>
+              <mat-form-field class="example-full-width">
+                <mat-label>Enter Note:</mat-label>
+                <textarea matInput placeholder="Resultados de aprendizaje"></textarea>
+              </mat-form-field>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="form-row">
+          <div class="column-half">
+            <div class="input-group">
+              <div class="input-group-prepend">
+                <div class="input-group-text">
+                  <i class="tim-icons icon-lock-circle"> </i>
+                </div>
+              </div>
+              <mat-form-field class="example-full-width">
+                <mat-label>Enter Note:</mat-label>
+                <textarea matInput placeholder="Contenido, subtemas"></textarea>
+              </mat-form-field>
+            </div>
+          </div>
+
+          <div class="column-half">
+            <div class="input-group">
+              <div class="input-group-prepend">
+                <div class="input-group-text">
+                  <i class="tim-icons icon-lock-circle"> </i>
+                </div>
+              </div>
+              <mat-form-field class="example-full-width">
+                <mat-label>Enter Note:</mat-label>
+                <textarea matInput placeholder="Bibliografia"></textarea>
+              </mat-form-field>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="form-row">
+          <div class="column-half">
+            <div class="input-group">
+              <div class="input-group-prepend">
+                <div class="input-group-text">
+                  <i class="tim-icons icon-lock-circle"> </i>
+                </div>
+              </div>
+              <mat-form-field class="example-full-width">
+                <mat-label>Enter Note:</mat-label>
+                <textarea matInput placeholder="Curso propio"></textarea>
+              </mat-form-field>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="column-half">
+
+          <div class="input-group">
+            <div class="input-group-prepend">
+              <div class="input-group-text">
+                <i class="tim-icons icon-lock-circle"> </i>
+              </div>
+            </div>
+            <mat-form-field class="example-full-width">
+              <mat-label>Enter Note:</mat-label>
+              <textarea matInput placeholder="Curso propio"></textarea>
+            </mat-form-field>
+          </div>
+
+        </div>
+
+
+
+
+        <div class="form-row">
+          <div class="column-half"><button class="button button1" mat-menu-item>Agregar</button>
+          </div>
+          <div class="column-half"><button class="button button2" mat-menu-item>Cancelar</button>
+          </div>
+
+
+          </div>
+
+        </div>
+      </div>
+  </mat-tab>
+</mat-tab-group>
 
 
 
   </div>
 
-  <div class="item3">
+  <!--div class="item3">
 
 
     <div id="responsive-form" class="clearfix">
@@ -146,7 +413,7 @@
       </div>
       
   </div>   
-</div>  
+</div-->  
 
 </div>
 
